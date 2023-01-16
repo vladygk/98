@@ -1,6 +1,6 @@
 import styles from "./LoginForm.module.css";
 
-export function LoginForm() {
+export default function LoginForm() {
   return <>
     <form className={styles.form}>
       <label className={styles.label} htmlFor="username">
