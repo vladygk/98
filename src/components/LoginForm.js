@@ -1,7 +1,7 @@
 import styles from "./LoginForm.module.css";
 
 export function LoginForm() {
-  return (
+  return <>
     <form className={styles.form}>
       <label className={styles.label} htmlFor="username">
         Username
@@ -15,5 +15,5 @@ export function LoginForm() {
 
       <button className={styles.submit}>Sumbit</button>
     </form>
-  );
+    </>;
 }
